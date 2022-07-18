@@ -1,0 +1,16 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('Ellipse 2.png'), url('Rectangle 1.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
