@@ -1,10 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 body{
@@ -13,4 +15,201 @@ body{
     background-repeat: no-repeat;
     font-family: Montserrat;
     overflow-x: hidden;
+}
+
+.logo1{
+    text-align: left;
+    margin-top: 3em;
+    font-weight: bolder;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    margin-top: 4em;
+}
+
+li{
+    padding: 12px 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a{
+    color: #1238C1;
+}
+
+.trolley{
+    width: 24px;
+}
+
+.container1{
+    height: 30vh;
+}
+
+.container2{
+    height: 100vh;
+}
+
+.container3{
+    display: flex;
+}
+
+.p1{
+    text-align: center;
+    color: #1238C1;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+/* left div */
+
+.leftside{
+    flex: 0.5;
+}
+
+
+.input1{
+    border: none;
+    border-radius: 0px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    /* min-width: 125px; */
+    width: 533px;
+    height: 84px;
+    padding: 0.5rem;
+    font-size: 24px;
+    margin-top: 3em;
+}
+
+form{
+    left: 10%;
+    position: absolute;
+}
+
+/* right div */
+.rightside{
+    flex: 0.5;
+}
+
+/* refer back for grid positioning */
+/* positioning the right div */
+
+.contacttext{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.contact-p{
+    font-size: 14px;
+    color: black;
+    margin-top: 6em;
+}
+
+.form2{
+    border: none;
+    border-radius: 0px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    /* min-width: 125px; */
+    width: 426px;
+    height: 167.01px;
+    padding: 0.5rem;
+    font-size: 24px;
+    /* margin-top: 3em; */
+}
+
+#button1{
+    background-color: #1238C1;
+    color: white;
+    border-radius: 40px;
+    width: 10em; 
+    height: 7em;
+    font-size: 12px;
+    box-shadow: 1px 5px 30px rgba(18, 56, 193, 0.6);
+    cursor: pointer;
+    border: none;
+}
+
+#button1:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.footer{
+    background-image: url("Rectangle 3.png");
+    height: 80vh;
+    width: 100%;
+}
+
+.footerh1{
+    text-align: center;
+    padding-top: 5em;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.footinput{
+    border: none;
+    border-radius: 0px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+    /* transition: background-color 0.5s ease-out; */
+}
+
+
+.p02{
+    color: white;
+    margin-top: 4em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.mini-prgh{
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+    font-weight: bolder;
+}
+
+.last-prgh{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+#button2{
+    background-color: #1238C1;
+    color: white;
+    border-radius: 40px;
+    width: 6em; 
+    height: 4em;
+    font-size: 12px;
+    box-shadow: 1px 5px 30px rgba(18, 56, 193, 0.6);
+    cursor: pointer;
+    border: none;
+}
+
+#button2:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+#form{
+    left: 30%;
+    margin-top: 4em;
+    position: absolute;
 }
