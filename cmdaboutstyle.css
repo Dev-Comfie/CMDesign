@@ -10,8 +10,195 @@
     text-decoration: none;
 }
 
-.container{
+body{
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+
+.container1{
+    background-image: url('chair.png');
+    /* background-size: cover; */
+    min-height: 80vh;
+    min-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.logo1{
+    text-align: left;
+    margin-top: 3em;
+    font-weight: bolder;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    margin-top: 4em;
+}
+
+li{
+    padding: 12px 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a{
+    color: #1238C1;
+}
+
+.trolley{
+    width: 24px;
+}
+
+
+.p1{
+    color: white;
+    font-weight: bolder;
+    margin-top: 20em;
+    margin-left: 35%;
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+.container2{
+    max-height: 100vh;
+    /* display: flex; */
+}
+
+.img-3{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    object-position: right top;
+}
+
+.img-size{
+    flex: 0.5;
+}
+
+.img-4{
+    position: absolute;
+    top: 100%;
+    width: 25em;
+}
+
+.img-5{
+    position: absolute;
+    width: 23em;
+    top: 105%;
+    left: 10%;
+}
+
+.img-6{
+    position: absolute;
+    width: 23em;
+    top: 160%;
+    left: 10%;
+}
+
+.text-side{
+    /* text-align: right; */
+}
+
+h5{
+    position: absolute; 
+    top: 115%;
+    right: 10%;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.mini-p{
+    position: absolute;
+    top: 120%;
+    font-size: 1.5em;
+    right: 14%;
+    font-weight: bold;
+}
+
+.mini-p2{
+    position: absolute;
+    top: 150%;
+    font-size: 1.2em;
+    right: 9%;
+}
+.footer2-area{
+    background-image: url("Rectangle 3.png");
     height: 80vh;
     width: 100%;
-    background-image: url('chair.png');
+}
+
+h2{
+    text-align: center;
+    padding-top: 5em;
+    font-weight: bold;
+    font-size: 28px;
+ }
+ 
+ .p02{
+    color: white;
+    margin-top: 4em;
+    text-align: center;
+    font-weight: bolder;
+ }
+ 
+ input{
+    border: none;
+    border-radius: 0px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease-out;
+ }
+ 
+ form{
+    margin-top: 4em;
+    position: absolute;
+    left: 30%;
+ }
+ 
+ .footbtn{
+    color: white;
+ }
+ 
+ .mini-prgh{
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+    font-weight: bolder;
+ }
+ 
+ .last-prgh{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+ }
+ 
+#button{
+    background-color: #1238C1;
+    color: white;
+    border-radius: 40px;
+    width: 3em; 
+    height: 3em;
+    font-size: 12px;
+    box-shadow: 1px 5px 30px rgba(18, 56, 193, 0.6);
+    cursor: pointer;
+}
+ 
+#button:hover{
+    background-color: black;
+}
+
+/* screen resolutions */
+
+@media only screen and (max-device-width: 480px){
+ body{
+    background-color: aqua;
+ }
 }
