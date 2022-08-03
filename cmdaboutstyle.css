@@ -17,9 +17,9 @@ body{
 
 .container1{
     background-image: url('chair.png');
-    /* background-size: cover; */
+    background-size: cover;
     min-height: 80vh;
-    min-width: 100%;
+    max-width: 100%;
     object-fit: contain;
     object-position: center;
 }
@@ -197,8 +197,21 @@ h2{
 
 /* screen resolutions */
 
-@media only screen and (max-device-width: 480px){
- body{
-    background-color: aqua;
- }
+@media (min-width: 375px) and (max-width: 667px){
+    body{
+        overflow-x: hidden;
+        max-width: 100rem;
+        width: auto;
+    }
+    .container1{
+        max-width: 100rem;
+        min-height: 80vh;
+        background-image: url('chair.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+    .logo1{
+        font-size: small;
+    }
 }
